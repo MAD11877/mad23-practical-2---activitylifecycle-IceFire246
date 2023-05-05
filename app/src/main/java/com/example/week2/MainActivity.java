@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         {
             if (User.followed) {
                 User.followed = false;
-                btn.setText("Follow");
+                btnFollow.setText("Follow");
             }
             else {
                 User.followed = true;
-                btn.setText("Unfollow");
+                btnFollow.setText("Unfollow");
             }
         }
     }
